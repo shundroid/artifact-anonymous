@@ -6,7 +6,7 @@ cd $DYNAMATIC_DIR
 source tools/dynamatic/scripts/utils.sh
 
 OUT_DIR="experimental/tools/elastic-miter/out"
-REWRITES="experimental/tools/elastic-miter/rewrites-spec"
+REWRITES="experimental/tools/elastic-miter/rewrites-ee"
 
 run() {
     NAME=$1
